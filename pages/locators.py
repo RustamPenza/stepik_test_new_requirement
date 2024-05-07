@@ -16,5 +16,6 @@ class ProductPageLocators:
     ADDED_PRICE_PRODUCT = (By.CSS_SELECTOR, "div .alert:nth-child(3) strong")
     NAME_PRODUCT = (By.CSS_SELECTOR, "div .product_main h1")
     PRICE_PRODUCT = (By.CSS_SELECTOR, "div .product_main p")
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, "#messages > .alert:nth-child(2)")
 
 
