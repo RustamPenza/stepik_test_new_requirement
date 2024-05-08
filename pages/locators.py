@@ -32,7 +32,7 @@ class ProductPageLocators:
 
 class BasketPageLocators:
     SUCCESS_MESSAGE = (By.CSS_SELECTOR, "#messages > .alert:nth-child(2)")
-    EMPTY_MESSAGE = (By.XPATH, "//p[contains(text(), 'Ваша корзина пуста')]")
+    EMPTY_MESSAGE = (By.XPATH, "//p[contains(text(), 'Your basket is empty')]")
     PRODUCT_IN_BASKET = (By.CSS_SELECTOR, "#content_inner div.basket-title")
 
 
