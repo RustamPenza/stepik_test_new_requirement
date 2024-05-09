@@ -23,7 +23,7 @@ class TestUserAddToBasketFromProductPage:
         base_page.should_be_authorized_user()
 
     @pytest.mark.need_review
-    def test_user_can_add_product_in_basket(self, browser):
+    def test_user_can_add_product_to_basket(self, browser):
         link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer0"
         page = ProductPage(browser, link)
         page.open()
